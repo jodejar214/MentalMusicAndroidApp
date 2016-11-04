@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MentalMusic2</string>
+    <string name="action_settings">Settings</string>
+    <string name="eQuest1">How do you want to feel?</string>
+    <string name="eQuest2">How are you feeling right now?</string>
+    <string-array name="emotions">
+        <item>Happy</item>
+        <item>Excited</item>
+        <item>Joyful</item>
+        <item>Depressed</item>
+        <item>Sad</item>
+        <item>Bored</item>
+        <item>Tired</item>
+        <item>Angry</item>
+        <item>Scared</item>
+        <item>Annoyed</item>
+        <item>Stressed</item>
+        <item>Relaxed</item>
+        <item>Content</item>
+        <item>Calm</item>
+    </string-array>
+    <string-array name="pos_emotions">
+        <item>Happy</item>
+        <item>Excited</item>
+        <item>Joyful</item>
+        <item>Relaxed</item>
+        <item>Content</item>
+        <item>Calm</item>
+    </string-array>
+    <string name="press_button">Press Button to Detect Heart Rate and Play Music.</string>
+    <string name="press_button2">Press Button to Detect Heart Rate and Go Back to Music Player.</string>
+    <string name="detect">Detect Heart Rate</string>
+    <string name="init_emo">How are you feeling now?</string>
+    <string name="waitMsg">Please Wait a Few Moments to Get Your Pulse Before Moving On.</string>
+    <string name="title_activity_music_player">Music Player</string>
+    <string name="consent_button">Get Consent</string>
+    <string name="title_activity_main2">Initial Survey</string>
+    <string name="title_activity_survey2">Second Survey</string>
+    <string name="title_activity_song_categorization">Song Categorization</string>
+    <string name="title_activity_initial_choose">Playlist Options</string>
+    <string name="welcome">Welcome to the App!</string>
+    <string name="instruct">Choose if you would like to create new playlists or play ones already created. </string>
+    <string name="play">Play Music</string>
+    <string name="create">Create Playlist</string>
+    <string name="vtext">Do you think the song evokes positivity?</string>
+    <string name="atext">Do you think the song is intense?</string>
+    <string name="next">Go to Next Song</string>
+    <string name="done">Finish Making Playlists</string>
+    <string-array name="yn">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

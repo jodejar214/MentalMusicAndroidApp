@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:keepScreenOn="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ubicomp.pac.cornell.cs.edu.mentalmusic2.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#0fefff">
+
+    <TextView
+        android:id="@+id/emotion_question"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/eQuest1"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:id="@+id/pos_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pos_emotions"
+        android:layout_below="@+id/emotion_question"
+        />
+
+    <TextView
+        android:id="@+id/press"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/press_button"
+        android:textSize="16sp"
+        android:layout_below="@+id/emotion_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detect"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnConsent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consent_button"
+        android:layout_below="@+id/btnStart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/wait"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waitMsg"
+        android:textSize="16sp"
+        android:layout_below="@+id/btnConsent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/wait"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/init_emo"
+        android:id="@+id/init_emotion"
+        android:layout_below="@+id/pos_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/emotion_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/emotions"
+        android:layout_below="@+id/init_emotion"
+        />
+
+</RelativeLayout>
